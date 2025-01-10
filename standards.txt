@@ -1,0 +1,5 @@
+Columns:
+1. Must have a ticker and date column
+2. Column names should be lowercase and a valid python variable name (use underscores if necessary)
+3. Date column should be a Date object (YYYY-MM-DD) do dr["date"] = pd.to_datetime(dr["date"]).dt.date to convert to date
+or use date from the datetime library
