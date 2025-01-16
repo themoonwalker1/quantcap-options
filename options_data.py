@@ -16,7 +16,7 @@ import os.path as osp
 import pickle
 from pathlib import Path
 import glob
-import pandas_ta as ta
+# import pandas_ta as ta
 from collections import defaultdict
 
 
